@@ -14,8 +14,6 @@ const Card = ({ question, answer, id }: CardData & CardProps) => {
     setIsAnswerVisible(!isAnswerVisible);
   };
 
-  console.log(isAnswerVisible);
-
   return (
     <>
       <div className="card-container">
